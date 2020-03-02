@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Link pseudo class selectors</title>
+</head>
+<body>
+ <style>
+  /* :link - unvisited link with href
+  :visited - visited link
+  :hover - hover
+  :active - as the user click's
+  a - all links */
+
+  a {
+   background-color: lightcoral;
+   display: block;
+   margin: 10px;
+  }
+  a:link{
+   color: white;
+  }
+
+  a:visited{
+   color: green;
+  }
+  a:active{
+   color: blue;
+  }
+
+
+
+ </style>
+ <a href="#">general link</a>
+ <a href="https://www.google.com">visited link</a>
+ <a href="#">hover link</a>
+ <a href="#">active link</a>
+ <a>simple link</a>
+</body>
+</html>
