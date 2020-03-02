@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<body>
+ <style>
+  body{
+   background: yellow;
+  }
+  .banner{
+   background: blue;
+  }
+  h1{
+   color: white;
+   text-align: center;
+   text-decoration: underline;
+   text-transform: capitalize;
+  }
+ /* min width means starting from */
+  @media screen and (max-width: 576px){
+
+   body{
+    background: indigo;
+   }
+   .banner{
+    background: lightcoral;
+   }
+   h1{
+    color: black;
+    font-size: 60px;
+   }
+  }
+
+  @media screen and (min-width: 868px){
+
+body{
+ background: lightseagreen;
+}
+.banner{
+ background: orchid;
+}
+h1{
+ color: black;
+ font-size: 60px;
+}
+}
+ </style>
+ <div class="banner">
+  <h1>Hello world i'm learning CSS</h1>
+ </div>
+</body>
+</html>
