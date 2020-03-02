@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=,, initial-scale=1.0">
+ <title>Code1= Css Selector/ Code2= ::first-line, ::first-letter, CODE3= :hover</title>
+</head>
+<body>
+ 
+<style>
+  /* STYLE1
+.header h1{
+ color: lightseagreen;
+}
+.header > h1{
+ color: salmon;
+}
+to be more specific use the above
+div h1{
+ color: indianred;
+}
+selecting a direct child
+div > h1{
+ color: indigo;
+} */
+
+
+
+ /* CODE2
+p::first-line{
+ font-weight: bold;
+}
+p::first-letter{
+ font-size: 150%;
+} */
+
+/* CODE 3 */
+
+div:hover{
+ color: red;
+}
+
+.header:hover{
+ color: white;
+ background: lawngreen;
+ letter-spacing: 5px;
+}
+
+a:hover{
+ text-decoration: none;
+ font-size: 40px;
+ background: lightcoral;
+}
+
+
+</style>
+ <!-- CODE 1
+ <div class="header">
+  <h1>I'm a child and descendant</h1>
+ </div>
+ <div class="header">
+  <h1>I'm a child and descendant</h1>
+  <ul>
+   <li>
+    <h1>I'm a descendant</h1>
+   </li>
+  </ul>
+ </div> -->
+
+ CODE2
+ <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae libero magnam neque ipsum. Dicta et, natus tenetur soluta autem commodi quibusdam dolor nemo reprehenderit, nobis illo quis sed illum.</div>
+ <div class="header">
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam ducimus aliquam adipisci dicta? Praesentium impedit eveniet commodi culpa quos fugiat aspernatur mollitia quia accusamus. Blanditiis, perferendis? Quas laborum corporis quos!
+
+  <a href="#">i'm simple link</a>
+ </div>
+</body>
+</html>
